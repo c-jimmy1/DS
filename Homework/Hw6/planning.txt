@@ -1,0 +1,18 @@
+when to stop recursion:
+-no more positive words, must use all
+-when the word doesn't fit. If it doesnt fit, need to check other ways
+	-horizontal, reverse horizontal
+	-vertical, reverse vertical
+	-diagonal, reverse diagonal
+-check if a no word exists after adding the word into the function
+-check if there is a character already there
+
+To check horizontally:
+check that the size of the word will fit
+check each spot to see if it has something there already
+check if the first letter already there
+add the word horizontally
+check if the word will cause the board to have a bad word- dont have if there is a bad word
+
+
+
